@@ -14,7 +14,7 @@
         <h3>Performance Comercial</h3>
 
         <blockquote>
-        	This is an example quotation that uses the blockquote tag.
+        	Información comercial de la empresa
         </blockquote>
     </div>
 

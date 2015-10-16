@@ -105,11 +105,15 @@ $(document).ready(function(){
     		'slc': slc
     	}
 
+        return true;
+
     }
 
     function genera_info_op1()
     {
-    	obtener_filtros();
+    	if(!obtener_filtros()){
+            return false;
+        }
 
     	$.ajax({
     		async: true,
@@ -136,7 +140,9 @@ $(document).ready(function(){
 
     function genera_info_op2()
     {
-    	obtener_filtros();
+    	if(!obtener_filtros()){
+            return false;
+        }
 
     	$.ajax({
     		async: true,
@@ -166,7 +172,9 @@ $(document).ready(function(){
 
     function genera_info_op3()
     {
-    	obtener_filtros();
+    	if(!obtener_filtros()){
+            return false;
+        }
 
     	$.ajax({
     		async: true,
