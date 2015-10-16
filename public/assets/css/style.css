@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+	flex: 1 0 auto;
+}
+
+nav{
+	background-color: white;
+}
+
+nav a {
+	color: grey;
+}
+nav ul a{
+	color: grey;
+}
+
+.div_slc_multiple{
+	height: 250px;
+	max-height: 400px;
+}
+
+.select_multiple{
+	height: inherit;
+}
+
+#logo{
+	margin: 0.3em;
+}
+
+#logo-menu{
+	margin: 1em;
+}
+
+.btn{
+	margin: 0.3em;
+}
+
+#chartContainer{
+	/*display:none;*/
+}
